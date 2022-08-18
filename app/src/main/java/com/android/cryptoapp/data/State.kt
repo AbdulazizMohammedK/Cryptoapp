@@ -1,4 +1,4 @@
-package com.android.cryptoapp
+package com.android.cryptoapp.data
 
 sealed class State<out T> {
     object Loading : State<Nothing>()
